@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DROPDOWN MENU</title>
+       
+        <style>
+          body{
+              background-color: #c1bdc9;
+            
+          }
+            .cls2 {
+              background-color:rgb(35, 117, 150);
+              color: white;
+              padding: 16px;
+              font-size: 50px;
+              border:solid 5px #270072;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+            
+            .cls1 {
+              position:absolute;
+              margin-left:500px;
+            }
+            
+            .cls3 {
+              display: none;
+              position: absolute;
+              background-color:white;
+              font-size: 25px;
+            }
+            
+            .cls3 a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .cls3 a:hover {
+              background-color:violet;
+            }
+            
+            .cls1:hover .cls3{
+              display:block;
+            }
+            
+            .cls1:hover .cls2 {
+              background-color:red;
+            }
+            </style>
+    </head>
+    <body>
+      <h1 style="color:aliceblue;text-decoration: underline;">DROPDOWN MENU CREATION</h1>
+      <br><br>
+        <div class="cls1">
+            <button class="cls2">Branch</button>
+            <div class="cls3">
+                <ul type="circle">
+                    <li><a href="#"><span style="color:rgb(12, 236, 124);background-color: #270072;">IT</span></a></li>
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">ECE</a></li>
+                    <li><a href="#">EEE</a></li>
+                    <li><a href="#">EIE</a></li>
+                    <li><a href="#">MECH</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="cls1">
+            <button class="cls2">Branch</button>
+            <div class="cls3">
+                <ul type="circle">
+                    <li><a href="#"><span style="color:rgb(12, 236, 124);background-color: #270072;">IT</span></a></li>
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">ECE</a></li>
+                    <li><a href="#">EEE</a></li>
+                    <li><a href="#">EIE</a></li>
+                    <li><a href="#">MECH</a></li>
+                </ul>
+            </div>
+          </div>
+    </body>
+</html>
